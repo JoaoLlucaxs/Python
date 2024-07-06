@@ -31,3 +31,9 @@ pais=4.5
 x = str(3)    # x irá ser '3' -> str signfica STRING
 y = int(3)    # y irá ser 3
 z = float(3)  # z irá ser 3.0
+
+# Muitos valores para múltiplas variáveis
+x, y, z = "Laranja", "Banana", "Maça"
+print(x)
+print(y)
+print(z)
