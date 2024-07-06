@@ -16,12 +16,18 @@ print('Valor do b = ' , b);
 
 # Em python para saber o tipo dessa variavel basta utilizar:
 nome="Brasil";
-type(nome)
+print(type(nome))
 
 quantidade=5
-type(quantidade)
+print(type(quantidade))
 
 # O python muda sua variavel dinamicamente diferente do Java que é tipagem forte estatica e não muda sua variavel para outro tipo
+#Variáveis ​​não precisam ser declaradas com nenhum tipo específico e podem até mesmo mudar de tipo depois de serem definidas
 pais="Brasil"
 pais=655
 pais=4.5
+
+# Se quiser converter variaveis logo de cara basta fazer o seguinte
+x = str(3)    # x irá ser '3' -> str signfica STRING
+y = int(3)    # y irá ser 3
+z = float(3)  # z irá ser 3.0
