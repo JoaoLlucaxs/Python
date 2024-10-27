@@ -1,5 +1,5 @@
 
-#Vamos entender os tipos de dados em python
+# -> Vamos entender os tipos de dados em python
 ## Já entendemos que a tipagem do python é dinamica ou seja não preciso dizer seu tipo ao declarar uma variavel
 
 x = 5
@@ -45,3 +45,18 @@ z = -87.7e100
 print(type(x))
 print(type(y))
 print(type(z))
+
+x = 3+5j
+print(x)
+
+
+"""
+Tipo de texto:	str
+Tipos Numéricos:	int, float, complex
+Tipos de sequência:	list, tuple, range
+Tipo de mapeamento:	dict
+Tipos de conjuntos:	set,frozenset
+Tipo Booleano:	bool
+Tipos binários:	bytes, bytearray, memoryview
+Nenhum Tipo:	NoneType
+"""
